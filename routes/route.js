@@ -21,6 +21,5 @@ module.exports = function (url, res, template) {
         if(!url.match('ico')) {
             res.end(error);
         }
-    }
-           
+    }     
 }
