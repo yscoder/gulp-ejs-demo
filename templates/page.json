@@ -1,0 +1,5 @@
+{
+  "title": "index",
+  "styles": ["index", "index-top"],
+  "scripts": ["selectlist", "index"]
+}
