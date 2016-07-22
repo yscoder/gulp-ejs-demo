@@ -1,0 +1,16 @@
+<% scripts.forEach(function(js){  %>
+
+<script src="<%= js %>"></script>
+
+<% }) %>
+
+
+<%
+    if(local.scripts) {
+        local.scripts.forEach(function(js){  %>
+
+<script src="<%= js %>"></script>
+
+<%      })
+    }
+ %>
